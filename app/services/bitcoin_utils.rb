@@ -37,6 +37,9 @@ module BitcoinUtils
         res = HelloBlockLabs.cosign_propagate({
           partialTxHex: hex
         })
+
+        ap res
+
         return res["data"]["transaction"]["txHash"]
       rescue => e
         ap e.inspect
