@@ -1,11 +1,11 @@
 GIT
-  remote: git://github.com/locksley/bitcoin-ruby.git
+  remote: https://github.com/locksley/bitcoin-ruby.git
   revision: 70c1d36eda9e9ce708fe1bf6a5c6f11fce2cbcc4
   specs:
     bitcoin-ruby (0.0.6)
 
 GIT
-  remote: git://github.com/locksley/helloblock-lite.git
+  remote: https://github.com/locksley/helloblock-lite.git
   revision: bcab6fa9f061a4229dba3ebdcfcc6cb5e288f1ca
   specs:
     helloblock-lite (1.0.6)
@@ -54,6 +54,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.7.0)
+    concurrent-ruby (1.1.10)
     crack (0.4.2)
       safe_yaml (~> 1.0.0)
     dalli (2.7.0)
@@ -91,7 +92,8 @@ GEM
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     httpclient (2.3.4.1)
-    i18n (0.6.9)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jbuilder (1.5.3)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
