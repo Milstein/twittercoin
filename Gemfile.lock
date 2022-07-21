@@ -1,11 +1,11 @@
 GIT
-  remote: git://github.com/locksley/bitcoin-ruby.git
+  remote: https://github.com/locksley/bitcoin-ruby.git
   revision: 70c1d36eda9e9ce708fe1bf6a5c6f11fce2cbcc4
   specs:
     bitcoin-ruby (0.0.6)
 
 GIT
-  remote: git://github.com/locksley/helloblock-lite.git
+  remote: https://github.com/locksley/helloblock-lite.git
   revision: bcab6fa9f061a4229dba3ebdcfcc6cb5e288f1ca
   specs:
     helloblock-lite (1.0.6)
@@ -239,7 +239,7 @@ GEM
       memoizable (~> 0.4.0)
       naught (~> 1.0)
       simple_oauth (~> 0.2.0)
-    tzinfo (0.3.39)
+    tzinfo (0.3.61)
     uglifier (2.5.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
