@@ -1,11 +1,11 @@
 GIT
-  remote: git://github.com/locksley/bitcoin-ruby.git
+  remote: https://github.com/locksley/bitcoin-ruby.git
   revision: 70c1d36eda9e9ce708fe1bf6a5c6f11fce2cbcc4
   specs:
     bitcoin-ruby (0.0.6)
 
 GIT
-  remote: git://github.com/locksley/helloblock-lite.git
+  remote: https://github.com/locksley/helloblock-lite.git
   revision: bcab6fa9f061a4229dba3ebdcfcc6cb5e288f1ca
   specs:
     helloblock-lite (1.0.6)
@@ -38,7 +38,8 @@ GEM
       multi_json (~> 1.3)
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
-    addressable (2.3.6)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     angular-ui-bootstrap-rails (0.10.0)
     angularjs-rails (1.2.16)
     arel (4.0.2)
@@ -143,6 +144,7 @@ GEM
       slop (~> 3.4)
     pry-rails (0.3.2)
       pry (>= 0.9.10)
+    public_suffix (5.0.0)
     puma (2.8.2)
       rack (>= 1.1, < 2.0)
     pusher (0.12.0)
