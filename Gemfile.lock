@@ -1,11 +1,11 @@
 GIT
-  remote: git://github.com/locksley/bitcoin-ruby.git
+  remote: https://github.com/locksley/bitcoin-ruby.git
   revision: 70c1d36eda9e9ce708fe1bf6a5c6f11fce2cbcc4
   specs:
     bitcoin-ruby (0.0.6)
 
 GIT
-  remote: git://github.com/locksley/helloblock-lite.git
+  remote: https://github.com/locksley/helloblock-lite.git
   revision: bcab6fa9f061a4229dba3ebdcfcc6cb5e288f1ca
   specs:
     helloblock-lite (1.0.6)
@@ -56,7 +56,7 @@ GEM
     coffee-script-source (1.7.0)
     crack (0.4.2)
       safe_yaml (~> 1.0.0)
-    dalli (2.7.0)
+    dalli (3.2.3)
     devise (3.2.4)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
